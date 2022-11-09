@@ -1,3 +1,5 @@
+/*Source: https://begincodingnow.com/sql-server-find-the-nth-occurrence-of-a-character-in-a-string/*/
+
 CREATE FUNCTION dbo.udf_CharIndex (
   @TargetString nvarchar(100),
   @SearchedString nvarchar(4000),
