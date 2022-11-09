@@ -22,4 +22,13 @@ BEGIN
     END
   END
   RETURN(@ret)
+  
+  /*example:*/
+  -- SELECT dbo.udf_CharIndex('a','abbabba',0)
+  -- SELECT dbo.udf_CharIndex('a','abbabba',1)
+  -- SELECT dbo.udf_CharIndex('a','abbabba',2)
+  -- SELECT dbo.udf_CharIndex('a','abbabba',3)
+  -- SELECT dbo.udf_CharIndex('a','abbabba',4)
+  -- SELECT dbo.udf_CharIndex('a','abbabba',5)
+  
 END
