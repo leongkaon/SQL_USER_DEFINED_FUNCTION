@@ -1,4 +1,4 @@
-CREATE FUNCTION udf_CharIndex (
+CREATE FUNCTION dbo.udf_CharIndex (
   @TargetString nvarchar(100),
   @SearchedString nvarchar(4000),
   @Occurrence int
