@@ -39,3 +39,4 @@ BEGIN
 				+ 'FROM '
 				+ @schema + '.' + @table_name + ' WITH (NOLOCK)' + ';' + CHAR(10)
 	RETURN @result;
+END
